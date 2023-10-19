@@ -20,7 +20,7 @@
     },
     "homepage": "https://github.com/pilot0211/blog#readme",
     "lint-staged": {
-        "src/**/*.{js,scss.json}": "prettier --write --single-quote --trailing-comma all --tab-width 4"
+        "src/**/*.{hbs,js,scss.json}": "prettier --write --single-quote --trailing-comma all --tab-width 4"
     },
     "husky": {
         "hooks": {
@@ -31,7 +31,8 @@
         "express": "^4.18.2",
         "express-handlebars": "^7.1.2",
         "handlebars": "^4.7.8",
-        "mongoose": "^7.5.4"
+        "mongoose": "^7.5.4",
+        "mongoose-slug-generator": "^1.0.4"
     },
     "devDependencies": {
         "husky": "^8.0.3",
